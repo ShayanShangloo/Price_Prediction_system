@@ -1,0 +1,10 @@
+i=0
+j=1
+list=[0,1]
+no=int(input("enter the no.:"))
+while(range(no)):
+    k=i+j
+    list.append(k)
+    k=j
+    j=i
+print(list)
