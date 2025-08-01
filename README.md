@@ -29,21 +29,6 @@ This is a Flask-based machine learning web API that predicts the prices of homes
 - JSON (for data config)
 - Scikit-learn (for ML training – not shown in repo)
 
----
-
-## 📂 Project Structure
-
-```
-
-bhp/
-├── server.py                  # Main Flask server exposing the API
-├── util.py                   # ML utilities: model loading, prediction
-├── artifacts/
-│   ├── banglore\_home\_prices\_model.pickle   # Pretrained model
-│   └── columns.json                         # Feature columns
-├── .gitignore
-└── README.md
-
 ````
 
 ---
